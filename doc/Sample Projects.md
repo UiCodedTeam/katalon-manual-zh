@@ -33,7 +33,7 @@
 
 要打开 Healthcare 示例项目，请在 Katalon Studio 中转到**File > New Sample Project > Sample Web UI Tests Project (Healthcare)**。
 
-![](Sample Projects.assets/img-003-01.png)
+![avatar](../imgs/ln/img-003-01.png)
 
 或者，您可以从我们的 Github 存储库下载医疗保健示例项目：[医疗保健示例](https://github.com/katalon-studio-samples/healthcare-tests)。
 
@@ -43,7 +43,7 @@
 
 要打开执行配置文件，请转到**Profiles > default**。
 
-![](Sample Projects.assets/img-003-02.png)
+![avatar](../imgs/ln/img-003-02.png)
 
 您可以在执行配置文件中创建和保存所有全局变量。它们可以在项目中的测试用例中使用。要了解有关执行配置文件和全局变量的更多信息，您可以参考此文档：[执行配置文件和全局变量](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html)。
 
@@ -61,7 +61,7 @@ Katalon 在此示例项目中创建三个全局变量，如下所示：
 
 Katalon 在此示例项目中创建了三个自定义关键字。要查看自定义关键字，请在“**测试资源管理器**”面板中，转到“**关键字”>“com.example”>“WebUICustomKeywords.groovy”**。
 
-![](Sample Projects.assets/img-003-03.png)
+![avatar](../imgs/ln/img-003-03.png)
 
 **▼com.example.WebUICustomKeywords.isElementPresent**
 
@@ -190,7 +190,7 @@ HTML 表格中一行的所有单元格的 Web 元素。
 
 在此示例中，我们要检索以下 HTML 表格正文中第一行的所有单元格的 Web 元素。
 
-![](Sample Projects.assets/img-003-04.png)
+![avatar](../imgs/ln/img-003-04.png)
 
 如上图所示，行索引从 开始`0`。在这里，要获取表体的第一行，我们将参数设置为`row[0]`并使用`com.example.WebUICustomKeywords.getHtmlTableRows`自定义关键字，如下所示：
 
@@ -230,7 +230,7 @@ WebUI.closeBrowser()
 
 要访问此项目中的主要测试用例，请在“**测试资源管理器**”面板中，转到“**测试用例”>“主要测试用例**” 。
 
-![](Sample Projects.assets/img-003-05.png)
+![avatar](../imgs/ln/img-003-05.png)
 
 三个测试用例用于不同的目的：
 
@@ -242,7 +242,7 @@ WebUI.closeBrowser()
 
    - 填写**用户名**和**密码**。**在这里，我们将Username**和**Password**的值类型设置为**Variable**。**您可以在变量**选项卡中更改**用户名**和**密码**值。要了解有关测试用例变量的更多信息，您可以参考此文档：[测试用例变量](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html)。
 
-     ![](Sample Projects.assets/img-003-06.png)
+     ![avatar](../imgs/ln/img-003-06.png)
 
    - 单击**登录**按钮。
 
@@ -250,7 +250,7 @@ WebUI.closeBrowser()
 
    - 关闭浏览器。
 
-     ![](Sample Projects.assets/img-003-07.gif)
+     ![avatar](../imgs/ln/img-003-07.gif)
 
      *单击 gif 将其放大。*
 
@@ -313,7 +313,7 @@ WebUI.closeBrowser()
    >
    > - 您只能在执行测试套件后看到屏幕截图。见下文：[测试套件和测试套件集合](https://docs.katalon.com/katalon-studio/docs/health-care-prj.html#test-suite-and-test-suite-collection)。
 
-   ![](Sample Projects.assets/img-003-08.gif)
+   ![avatar](../imgs/ln/img-003-08.gif)
 
    *单击 gif 将其放大。*
 
@@ -395,15 +395,15 @@ WebUI.closeBrowser()
 
 这个项目中有两个测试套件。要访问它们，在**Test Explorer**面板中，转到**Test Suites**。
 
-![](Sample Projects.assets/img-003-09.png)
+![avatar](../imgs/ln/img-003-09.png)
 
 1. 测试套件**Healthcare-tests - TS_RegressionTest**结合了上面显示的三个测试用例。
 
-   ![](Sample Projects.assets/img-003-10.png)
+   ![avatar](../imgs/ln/img-003-10.png)
 
 2. 测试套件集合**Healthcare-tests - TS_RegressionTestCollection**结合了两个**Healthcare-tests - TS_RegressionTest**测试套件与不同的测试环境。在这个项目中，我们使用 Firefox 和 Chrome 运行测试套件。
 
-   ![](Sample Projects.assets/img-003-11.png)
+   ![avatar](../imgs/ln/img-003-11.png)
 
    *点击图片放大。*
 
@@ -417,11 +417,11 @@ WebUI.closeBrowser()
 
    您可以在**Run**旁边的下拉列表中选择不同的浏览器来执行您的测试。
 
-   ![](Sample Projects.assets/img-003-12.png)
+   ![avatar](../imgs/ln/img-003-12.png)
 
 3. 在**Log Viewer**选项卡中观察测试结果。想要了解更多关于分析测试执行日志的内容，可以参考这篇文档：[【WebUI】分析测试执行日志和调试测试用例](https://docs.katalon.com/katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html#analyze-test-execution-logs-in-log-viewer)。
 
-   ![](Sample Projects.assets/img-003-13.png)
+   ![avatar](../imgs/ln/img-003-13.png)
 
    > 笔记：
    >
@@ -443,7 +443,7 @@ WebUI.closeBrowser()
 
 要打开 Shopping Cart 示例项目，在 Katalon Studio 中，转到**File > New Sample Project > Sample Web UI Tests Project (Shopping Cart)**。
 
-![](Sample Projects.assets/img-003-14.png)
+![avatar](../imgs/ln/img-003-14.png)
 
 或者，您可以从我们的 Github 存储库下载购物车示例项目：[购物车示例](https://github.com/katalon-studio-samples/shopping-cart-tests)。
 
@@ -453,7 +453,7 @@ WebUI.closeBrowser()
 
 要打开执行配置文件，请转到**Profiles > default**。
 
-![](Sample Projects.assets/img-003-15.png)
+![avatar](../imgs/ln/img-003-15.png)
 
 您可以在执行配置文件中创建和保存所有全局变量。它们可以在项目中的测试用例中使用。要了解有关执行配置文件和全局变量的更多信息，您可以参考此文档：[执行配置文件和全局变量](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html)。
 
@@ -496,7 +496,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 | Shop.groovy             | 此文件包含执行添加到购物车操作的自定义关键字。             |
 | Utils.groovy            | 此文件包含辅助文件中的关键字的关键字`Select2.groovy`。     |
 
-![](Sample Projects.assets/img-003-17.png)
+![avatar](../imgs/ln/img-003-17.png)
 
 自定义关键字可以在测试用例中多次重复使用，以执行不同的操作，例如登录、将商品添加到购物车和签出。您可以在我们的示例测试用例中看到自定义关键字的使用，如下所示：[测试用例](https://docs.katalon.com/katalon-studio/docs/shopping-cart-prj.html#test-cases)。
 
@@ -506,7 +506,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
 要查看此项目中的**Custom-keyword samples**测试用例，在**Test Explorer**面板中，转到**Test Cases > Custom-keyword samples**。双击打开以下测试用例之一：
 
-![](Sample Projects.assets/img-003-18.png)
+![avatar](../imgs/ln/img-003-18.png)
 
 - 测试用例**Order and check out single product**将**单个产品**添加到购物车，然后结帐。这个测试用例的流程如下：
 
@@ -529,7 +529,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
      - 填写结帐信息。**检出信息在“变量**”选项卡中定义为测试用例变量。
 
-       ![](Sample Projects.assets/img-003-19.png)
+       ![avatar](../imgs/ln/img-003-19.png)
 
   5. 最后，我们使用`logoutFromApplication`自定义关键字来：
 
@@ -537,7 +537,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
      - 单击**注销**。
 
-       ![](Sample Projects.assets/img-003-20.gif)
+       ![avatar](../imgs/ln/img-003-20.gif)
 
        *单击 gif 将其放大。*
 
@@ -600,7 +600,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
    - 单击**注销**。
 
-     ![](Sample Projects.assets/img-003-21.gif)
+     ![avatar](../imgs/ln/img-003-21.gif)
 
      *单击 gif 将其放大。*
 
@@ -641,7 +641,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
      要查看此项目中的**数据驱动示例**测试用例，请在“**测试资源管理器**”面板中，转到“**测试用例”>“数据驱动示例”>“订购”并签出多个产品**。
 
-     ![](Sample Projects.assets/img-003-22.png)
+     ![avatar](../imgs/ln/img-003-22.png)
 
      测试用例**Order and check out multiple products**将产品列表中的产品添加到购物车，然后结帐。这个测试用例的流程如下：
 
@@ -675,7 +675,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
         - 填写结帐信息。检出信息被定义为执行配置文件中的全局变量。
 
-          ![](Sample Projects.assets/img-003-23.gif)
+          ![avatar](../imgs/ln/img-003-23.gif)
 
           *单击 gif 将其放大。*
 
@@ -722,7 +722,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
           要查看此示例项目中的数据文件，请在**Test Explorer**面板中，转到**Data Files > Product List/Multiple Checkout**。
 
-          ![](Sample Projects.assets/img-003-24.png)
+          ![avatar](../imgs/ln/img-003-24.png)
 
           或者，您可以转到`<your-project-folder>\Data Files`并选择要打开的文件：
 
@@ -740,7 +740,7 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
              想了解更多关于绑定数据的内容，可以参考以下文档：[数据绑定](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding)。
 
-             ![](Sample Projects.assets/img-003-25.png)
+             ![avatar](../imgs/ln/img-003-25.png)
 
              *点击图片放大。*
 
@@ -760,19 +760,19 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
              }
              ```
 
-             ![](Sample Projects.assets/img-003-26.png)
+             ![avatar](../imgs/ln/img-003-26.png)
 
              3. 测试套件**Order and check out with Global Variable**演示**了全局变量的**数据驱动测试。
 
              为了**使用全局变量**测试套件进行检查，我们将**自定义关键字示例**称为测试用例。这些测试用例使用带有全局变量的自定义关键字。
 
-             ![](Sample Projects.assets/img-003-27.png)
+             ![avatar](../imgs/ln/img-003-27.png)
 
              ### 测试套件集合
 
              测试套件集合**Shopping-cart-tests - Run All Test Suites**将上面显示的三个测试套件与不同的测试环境结合在一起。
 
-             ![](Sample Projects.assets/img-003-28.png)
+             ![avatar](../imgs/ln/img-003-28.png)
 
              *点击图片放大。*
 
@@ -786,11 +786,11 @@ Katalon 还在此示例项目中创建示例自定义关键字。要了解更多
 
                 **您可以在Run**旁边的下拉列表中选择不同的浏览器来执行您的测试。
 
-                ![](Sample Projects.assets/img-003-29.png)
+                ![avatar](../imgs/ln/img-003-29.png)
 
              3. **在Log Viewer**选项卡中观察测试结果。想要了解更多关于分析测试执行日志的内容，可以参考这篇文档：[【WebUI】分析测试执行日志和调试测试用例](https://docs.katalon.com/katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html#analyze-test-execution-logs-in-log-viewer)。
 
-                ![](Sample Projects.assets/img-003-30.png)
+                ![avatar](../imgs/ln/img-003-30.png)
 
                 > 笔记：
                 >
@@ -830,11 +830,11 @@ Web 服务测试示例项目可[在此处](https://github.com/katalon-studio-sam
 
 2. 转到**项目**>**设置**> **Katalon TestOps**。
 
-   ![](Sample Projects.assets/img-003-31.png)
+   ![avatar](../imgs/ln/img-003-31.png)
 
    或者，您也可以单击主工具栏中的**TestOps**图标以导航到 TestOps 设置。
 
-   ![](Sample Projects.assets/img-003-32.png)
+   ![avatar](../imgs/ln/img-003-32.png)
 
 3. 勾选**启用 Katalon TestOps 集成**复选框。
 
@@ -850,7 +850,7 @@ Web 服务测试示例项目可[在此处](https://github.com/katalon-studio-sam
 
 在 Katalon Studio 中启用 Katalon TestOps 集成后，每次在 Katalon Studio 中运行测试套件时，您的测试结果都会自动上传到 Katalon TestOps。
 
-![](Sample Projects.assets/img-003-33.png)
+![avatar](../imgs/ln/img-003-33.png)
 
 ## 手动上传测试结果
 
@@ -862,7 +862,7 @@ Web 服务测试示例项目可[在此处](https://github.com/katalon-studio-sam
 
    选择**结果**选项卡。
 
-   ![](Sample Projects.assets/img-003-34.png)
+   ![avatar](../imgs/ln/img-003-34.png)
 
 3. 单击右上角的**Katalon TestOps**选项卡，然后选择**Upload**。
 
@@ -878,7 +878,7 @@ Web 服务测试示例项目可[在此处](https://github.com/katalon-studio-sam
 
 1. 打开 Katalon Studio 并单击右上角的*配置文件*图标。
 
-   ![](Sample Projects.assets/img-003-35.png)
+   ![avatar](../imgs/ln/img-003-35.png)
 
 2. 选择**注销**。
 
@@ -890,7 +890,7 @@ Web 服务测试示例项目可[在此处](https://github.com/katalon-studio-sam
 
 要验证您是否已成功覆盖身份验证，请再次单击*Profile*图标并选择**View Dashboard**。
 
-![](Sample Projects.assets/img-003-36.png)
+![avatar](../imgs/ln/img-003-36.png)
 
 您将被导航到 Katalon TestOps 中的新组织。
 
@@ -1004,7 +1004,7 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
   可以通过单击Web 服务对象视图中的**验证选项卡来访问验证片段。**
 
-  ![](Sample Projects.assets/img-003-37.png)
+  ![avatar](../imgs/ln/img-003-37.png)
 
   ## 使用验证片段
 
@@ -1014,7 +1014,7 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
   您还可以验证 XML 或 JSON 响应正文的数据。为此，在响应面板中，切换到 JSON 或 XML 响应页面，选择数据并按组合键“Ctrl/Command + K”添加验证脚本。
 
-  ![](Sample Projects.assets/img-003-38.png)
+  ![avatar](../imgs/ln/img-003-38.png)
 
   Katalon Studio 会将响应正文中的值与验证脚本中的预定义值进行比较。
 
@@ -1022,10 +1022,10 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
   - ***在 Web 服务对象\*****中：单击 Web 服务对象详细信息中“播放**”按钮旁边的下拉按钮，然后选择“测试请求和验证”。
 
-    ![](Sample Projects.assets/img-003-39.png)
+    ![avatar](../imgs/ln/img-003-39.png)
 
     它将发送当前请求并执行验证片段。使用验证片段执行的验证日志将显示在“**验证日志**”选项卡上。如果您不想使用当前验证片段发送测试请求，则只需单击“**播放”** 按钮。
-    ![](Sample Projects.assets/img-003-40.png)
+    ![avatar](../imgs/ln/img-003-40.png)
 
   - ***在测试用例中\***：使用发送请求和验证关键字。这还将发送当前请求并执行验证片段。 
 
@@ -1035,7 +1035,7 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
     执行结果将显示在“**日志查看器**”选项卡中。
 
-    ![](Sample Projects.assets/img-003-41.png)
+    ![avatar](../imgs/ln/img-003-41.png)
 
   ## 可用验证片段列表
 
@@ -1066,11 +1066,11 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
 1.  从主菜单中选择 **文件 > 新建 > 包。**将 显示**新建关键字包** 对话框。为您的包输入一个名称，然后单击 **OK**。
 
-   ![](Sample Projects.assets/img-003-42.png)
+   ![avatar](../imgs/ln/img-003-42.png)
 
 2. 相应地，在测试资源管理器的**关键字**文件夹下创建一个新包。
 
-   ![](Sample Projects.assets/img-003-43.png)
+   ![avatar](../imgs/ln/img-003-43.png)
 
 ## 创建自定义关键字
 
@@ -1078,13 +1078,13 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
    默认情况下，类名不能以数字开头，不能包含空格或特殊字符。Java 命名约定建议使用名词或名词短语来创建类名，每个单词的首字母大写，以便更好地管理项目。
 
-   ![](Sample Projects.assets/img-003-44.png)
+   ![avatar](../imgs/ln/img-003-44.png)
 
    > 您可以为 Web、移动和 API 测试生成示例自定义关键字。请参阅[本指南](https://docs.katalon.com/katalon-studio/docs/sample-custom-keywords.html)。
 
 2.  相应地在指定的**包**下创建一个新关键字 。
 
-   ![](Sample Projects.assets/img-003-45.png)
+   ![avatar](../imgs/ln/img-003-45.png)
 
 3. 在您的类中输入以下代码片段以定义自定义关键字：
 
@@ -1106,7 +1106,7 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
    | parameters    | 将在自定义关键字中使用的参数列表                | 强制的 |
    | 例如：        |                                                 |        |
 
-   ![](Sample Projects.assets/img-003-46.png)
+   ![avatar](../imgs/ln/img-003-46.png)
 
    从**7.5.5**版本开始，关键字浏览器中的自定义关键字按字母顺序排列，您可以对其进行分类。特别是，类别名称应使用`keywordObject`与内置关键字相同的机制声明。以下示例描述了“浏览器”类别的关键字：
 
@@ -1126,11 +1126,11 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
 1. 在手动视图中打开一个测试用例，然后 从命令工具栏中选择**自定义关键字。**
 
-   ![](Sample Projects.assets/img-003-47.png)
+   ![avatar](../imgs/ln/img-003-47.png)
 
 2. 添加了一个新的测试步骤。选择您的自定义关键字之一。
 
-   ![](Sample Projects.assets/img-003-48.png)
+   ![avatar](../imgs/ln/img-003-48.png)
 
 ### 在脚本视图中
 
@@ -1144,7 +1144,7 @@ Katalon TestOps 中的报告是基于以 Katalon Studio、Katalon Recorder 和 J
 
 2. **键入点** 字符 后将立即调用 **Content Assist**功能。 **Content Assist** 为用户提供上下文相关的代码完成建议。因此，您的测试项目中定义的所有自定义关键字将显示如下：
 
-   ![](Sample Projects.assets/img-003-49.png)
+   ![avatar](../imgs/ln/img-003-49.png)
 
 3. 选择最近创建的关键字并根据需要提供所有参数。
 
@@ -1175,39 +1175,39 @@ Katalon Studio 提供了使用外部数据源执行自动化测试的能力。
 
 请参阅[本文](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data)了解如何在 Katalon Studio 中创建新的 Excel 测试数据。所选 Excel 文件中的数据将填充到预览部分，如下例所示。
 
-![](Sample Projects.assets/img-003-50.png)
+![avatar](../imgs/ln/img-003-50.png)
 
 ## 使用测试用例变量创建新的测试套件
 
 打开一个测试套件，从命令工具栏中选择**添加。**Katalon Studio 中的所有测试用例都将显示在“**测试用例浏览器**”对话框中。选定的测试用例将被添加到测试用例列表中，如下例所示。
 
-![](Sample Projects.assets/img-003-51.png)
+![avatar](../imgs/ln/img-003-51.png)
 
 ## 管理数据绑定
 
 1. 在测试套件编辑器中，单击**Show Data Binding**以展开包含**Test Data**和**Variable Binding**表的**Data Binding**部分。
 
-   ![](Sample Projects.assets/img-003-52.png)
+   ![avatar](../imgs/ln/img-003-52.png)
 
 2. 在**测试数据**表中，选择**添加**> 选择要用于执行的数据 > 将所选测试数据相应地添加到列表中。
 
-   ![](Sample Projects.assets/img-003-53.png)
+   ![avatar](../imgs/ln/img-003-53.png)
 
 3. 在显示所选测试用例的所有变量的**数据绑定表中，选择所有行 > 选择****设置类型**> 选择**数据列**作为它们的类型。
 
-   ![](Sample Projects.assets/img-003-54.png)
+   ![avatar](../imgs/ln/img-003-54.png)
 
 4. 单击**设置测试数据**以决定列表中要用于执行的测试数据。
 
-   ![](Sample Projects.assets/img-003-55.png)
+   ![avatar](../imgs/ln/img-003-55.png)
 
 5. 单击**值**列中的每个单元格以指定所选数据文件中的数据字段。例如：
 
-   ![](Sample Projects.assets/img-003-56.png)
+   ![avatar](../imgs/ln/img-003-56.png)
 
 6. 完成上述所有步骤后，保存并运行您的测试套件以查看以下结果：
 
-   ![](Sample Projects.assets/img-003-57-164300549547345.png)
+   ![avatar](../imgs/ln/img-003-57-164300549547345.png)
 
 > **小建议：**
 >
@@ -1215,7 +1215,7 @@ Katalon Studio 提供了使用外部数据源执行自动化测试的能力。
 >
 > 例如，当您单击**Map All**时，所选测试用例的“用户名”和“密码”变量可以自动映射到测试数据的“用户名”和“密码”列。
 >
-> ![](Sample Projects.assets/img-003-58.png)
+> ![avatar](../imgs/ln/img-003-58.png)
 
 
 
@@ -1236,7 +1236,7 @@ Katalon Studio 提供了使用外部数据源执行自动化测试的能力。
 
 要打开 Android 示例项目，请在 Katalon Studio 中转到**File > New Sample Project > Sample Android Mobile Tests Project**。如果您当前的机器没有安装 Android SDK 或者您的 Android SDK 不在默认文件夹中，Katalon Studio 会自动检测并要求您安装它：`~/.katalon/tools/android_sdk`.
 
-![](Sample Projects.assets/img-003-59.png)
+![avatar](../imgs/ln/img-003-59.png)
 
 或者，您可以从我们的 Github 存储库下载 Android 示例项目：[Android 示例](https://github.com/katalon-studio-samples/android-mobile-tests)。
 
@@ -1246,7 +1246,7 @@ Katalon Studio 提供了使用外部数据源执行自动化测试的能力。
 
 要打开执行配置文件，请转到**Profiles > default**。
 
-![](Sample Projects.assets/img-003-60.png)
+![avatar](../imgs/ln/img-003-60.png)
 
 您可以在执行配置文件中创建和保存所有全局变量。它们可以在项目中的测试用例中使用。要了解有关执行配置文件和全局变量的更多信息，您可以参考此文档：[执行配置文件和全局变量](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html)。
 
@@ -1263,7 +1263,7 @@ Katalon 在这个示例项目中创建了四个全局变量，如下所示：
 
 要访问此项目中的测试用例，请转到“**测试资源管理器**”面板中的“**测试用例**”文件夹。
 
-![](Sample Projects.assets/img-003-61.png)
+![avatar](../imgs/ln/img-003-61.png)
 
 有两个用于不同目的的测试用例：
 
@@ -1287,7 +1287,7 @@ Katalon 在这个示例项目中创建了四个全局变量，如下所示：
 
    - **验证App/Activity/Custom Dialog**对话框上显示的文本是否正确。
 
-     ![](Sample Projects.assets/img-003-62.gif)
+     ![avatar](../imgs/ln/img-003-62.gif)
 
      ​											*单击 gif 将其放大。*
 
@@ -1358,7 +1358,7 @@ Katalon 在这个示例项目中创建了四个全局变量，如下所示：
 
 - 验证当前屏幕是否应在滚动后显示 Xfermodes 文本
 
-![](Sample Projects.assets/img-003-63.gif)
+![avatar](../imgs/ln/img-003-63.gif)
 
 - 以脚本方式查看测试用例
 
@@ -1402,7 +1402,7 @@ Katalon 在这个示例项目中创建了四个全局变量，如下所示：
 
   要访问此项目中的测试套件，请在“**测试资源管理器**”面板中，转到“**测试套件”>“回归测试**”文件夹。该测试套件结合了上面显示的两个测试用例。
 
-  ![](Sample Projects.assets/img-003-64.png)
+  ![avatar](../imgs/ln/img-003-64.png)
 
   ## 执行选定的测试用例或测试套件
 
@@ -1412,15 +1412,15 @@ Katalon 在这个示例项目中创建了四个全局变量，如下所示：
 
   2. 在主工具栏上，在**Run**旁边的下拉列表中选择**Android**作为设备类型。
 
-     ![](Sample Projects.assets/img-003-65.png)
+     ![avatar](../imgs/ln/img-003-65.png)
 
   3. 从 **Android 设备** 列表中选择您的设备。单击 **确定**。 
 
-     ![](Sample Projects.assets/img-003-66.png)
+     ![avatar](../imgs/ln/img-003-66.png)
 
   4. **在Log Viewer**选项卡中观察测试结果。想要了解更多关于分析测试执行日志的内容，可以参考这篇文档：[【WebUI】分析测试执行日志和调试测试用例](https://docs.katalon.com/katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html#analyze-test-execution-logs-in-log-viewer)。
 
-     ![](Sample Projects.assets/img-003-67.png)
+     ![avatar](../imgs/ln/img-003-67.png)
 
      *点击图片放大。*
 
@@ -1440,17 +1440,17 @@ Katalon 在这个示例项目中创建了四个全局变量，如下所示：
 
 功能文件位于项目文件夹中**的“包含/功能”**文件夹中，可以从*测试资源管理器*中看到：
 
-![](Sample Projects.assets/img-003-68.png)
+![avatar](../imgs/ln/img-003-68.png)
 
 *功能*文件的内容将遵循 BDD 约定（_Given、When、The_n）。创建新*功能*文件时，将有一个“**生成示例功能模板**”选项，它将为您的*功能*文件生成示例模板。这将确保创建的*功能*文件与 BDD 约定匹配，以便您减少以正确格式 创建*功能文件的工作。*
 
-![](Sample Projects.assets/img-003-69.png)
+![avatar](../imgs/ln/img-003-69.png)
 
 让我们看一个 Katalon Demo Cura System ( [http://demoaut.katalon.com) 的示例。](http://demoaut.katalon.com)./) 我们想使用有效和无效的凭据测试*登录*功能，因此内容将如下所示：
 
 > 标签是组织功能和场景的好方法。[阅读更多...](https://docs.cucumber.io/cucumber/api/#tags)
 
-![](Sample Projects.assets/img-003-70.png)
+![avatar](../imgs/ln/img-003-70.png)
 
 **样本特征文件**
 
@@ -1516,7 +1516,7 @@ Feature: Login Feature
 
 以上困难已直接从功能文件编辑器的上下文菜单中处理。
 
-![](Sample Projects.assets/img-003-71.png)
+![avatar](../imgs/ln/img-003-71.png)
 
 **漂亮的格式**
 
@@ -1540,7 +1540,7 @@ Feature: Login Feature
 
 例如，让我们从上面的*Features* File 中获取 Gherkin 场景并定义步骤：
 
-![](Sample Projects.assets/img-003-72.png)
+![avatar](../imgs/ln/img-003-72.png)
 
 **步骤定义**
 
@@ -1631,7 +1631,7 @@ class NewTestListener {
 
 Katalon Studio 允许您立即自行运行功能文件，以确保其正常工作。打开所需的**功能**文件，单击主工具栏上的 **播放** 按钮。
 
-![](Sample Projects.assets/img-003-73.png)
+![avatar](../imgs/ln/img-003-73.png)
 
 ### 在测试用例中
 
@@ -1669,5 +1669,5 @@ Test Suite/Test Suite Collection 生成的 Cucumber 报告将位于 Katalon Stud
 
 Katalon Studio 支持Cucumber 报告的**三种**格式：JSON、XML、HTML。
 
-![](Sample Projects.assets/img-003-74.png)
+![avatar](../imgs/ln/img-003-74.png)
 

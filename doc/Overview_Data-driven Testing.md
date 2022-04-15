@@ -53,7 +53,7 @@ Katalon Studio 支持[以下选择方法](https://docs.katalon.com/katalon-studi
 1. 在**Test Object**的视图中，选择**Attributes**作为默认选择方法。
 2. 在**对象的属性**表中，单击 **添加**。
 3. 在显示的 **添加属性** 对话框中，指定所需的信息：
-   ![](Overview_Data-driven Testing.assets/img-011-01.png)
+   ![avatar](../imgs/ln/img-011-01.png)
 
 在哪里：
 
@@ -111,7 +111,7 @@ Katalon Studio 支持在测试对象视图中定义父 iframe 对象的功能，
   myNewObject.setSelectorMethod(SelectorMethod.XPATH)
   ```
 
-![](Overview_Data-driven Testing.assets/img-011-04.png)
+![avatar](../imgs/ln/img-011-04.png)
 
 ```
 //CSS
@@ -119,7 +119,7 @@ myNewObject.setSelectorValue(SelectorMethod.CSS,"#appointment > div > div > form
 myNewObject.setSelectorMethod(SelectorMethod.CSS)
 ```
 
-![](Overview_Data-driven Testing.assets/img-011-05.png)
+![avatar](../imgs/ln/img-011-05.png)
 
 以下 Java 文档在使用测试对象时可能会很有用：
 
@@ -134,13 +134,13 @@ myNewObject.setSelectorMethod(SelectorMethod.CSS)
 
 您可以将测试对象添加到 **Web Object Spy** 对话框，以验证被测应用程序中的检测。要将对象添加到 **Web Object Spy**，请右键单击该项目以打开其上下文菜单并选择该选项。
 
-![](Overview_Data-driven Testing.assets/img-011-06.png)
+![avatar](../imgs/ln/img-011-06.png)
 
 ### 验证并突出显示
 
 Katalon Studio **对象属性** 具有内置的 **验证和突出显示**功能，可帮助用户仔细检查是否可以找到 Web 对象。 Katalon Studio 将显示有关使用生成的 XPath 定位器**找到** 或未 **找到**多少元素的消息 。如果 **找到**对象，它将以 **红色**边框突出显示。
 
-![](Overview_Data-driven Testing.assets/img-011-07.png)
+![avatar](../imgs/ln/img-011-07.png)
 
 完成后，单击 **保存**将对象正常 添加到 **对象存储库** 。
 
@@ -154,13 +154,13 @@ Katalon Studio **对象属性** 具有内置的 **验证和突出显示**功能�
 
 **默认情况下，在Project > Settings > Self-Healing > Web UI > Test Execution**中为 Web 测试执行启用基于图像的对象识别（[请参阅自我修复测试](https://docs.katalon.com/katalon-studio/docs/self-healing.html)）。
 
-![](Overview_Data-driven Testing.assets/img-011-08.png)
+![avatar](../imgs/ln/img-011-08.png)
 
 **7.6之前**
 
 默认情况下，在项目设置中禁用基于图像的对象识别。请前往**Project > Settings > Execution**并勾选**Enable Image Recognition**以开启此回退策略。
 
-![](Overview_Data-driven Testing.assets/img-011-09.png)
+![avatar](../imgs/ln/img-011-09.png)
 
 ### 捕获屏幕截图并创建对象的屏幕截图属性
 
@@ -180,7 +180,7 @@ Katalon Studio **对象属性** 具有内置的 **验证和突出显示**功能�
 
 - **Targets**文件夹用于包含 Katalon Studio 用于定位对象的图像 。
 
-  ![](Overview_Data-driven Testing.assets/img-011-10.png)
+  ![avatar](../imgs/ln/img-011-10.png)
 
 > 有关示例项目，请[在此处下载](https://github.com/katalon-studio-samples/image-recognition-web)
 
@@ -190,7 +190,7 @@ Katalon Studio **对象属性** 具有内置的 **验证和突出显示**功能�
 
 **捕获工具**：要捕获与您喜欢的 Web 元素相关的屏幕截图，我们建议使用 Web Recorder 和 Spy Tools 中的内置屏幕捕获功能。特别是，在单击**Show Captured Objects**后的展开视图中，选择右下角 的**Add Screenshot按钮。**
 
-![](Overview_Data-driven Testing.assets/img-011-11.png)
+![avatar](../imgs/ln/img-011-11.png)
 
 ## 使用 Shadow DOM 对象
 
@@ -202,11 +202,11 @@ Katalon Studio 允许用户使用 Shadow DOM 元素。首先，用户需要使�
 
 在新的对象设置中，选择**Shadow Root Parent**选项并从第一步中定义父对象。这允许 Katalon Studio 通过生成的 CSS 选择器遍历父对象，以通过其属性检测 Shadow DOM 对象（请参阅[对象属性](https://docs.katalon.com/display/KD/Manage+Test+Object#ManageTestObject-Propertiesusedfordetectingobject)）。
 
-![](Overview_Data-driven Testing.assets/img-011-12.png)
+![avatar](../imgs/ln/img-011-12.png)
 
 例如，以下测试执行日志显示 Katalon Studio 尝试首先查找父对象。一旦找到父对象，Katalon Studio 将尝试通过 CSS 选择器查找 Shadow DOM 元素：
 
-![](Overview_Data-driven Testing.assets/img-011-13.png)
+![avatar](../imgs/ln/img-011-13.png)
 
 ### 限制
 
@@ -278,7 +278,7 @@ static TestObject makeTO(String css) {
 
 其选定的定位器`//*[(text() = '${text}' or . = '${text}')]`在运行时生成并通过传递数据进行标识。
 
-![](Overview_Data-driven Testing.assets/img-011-14.png)
+![avatar](../imgs/ln/img-011-14.png)
 
 ### 步骤 2：在测试用例中使用参数化的测试对象
 
@@ -286,7 +286,7 @@ static TestObject makeTO(String css) {
 
   在`Verify Correct Alarm Message`测试用例中，双击包含参数化属性的测试对象，即`android.widget.TextView - App`. 将显示**测试对象输入**对话框。
 
-  ![](Overview_Data-driven Testing.assets/img-011-15.png)
+  ![avatar](../imgs/ln/img-011-15.png)
 
 在“变量”面板中，添加具有以下属性的新变量：
 
@@ -298,7 +298,7 @@ static TestObject makeTO(String css) {
 
 - 值：该变量的特定值。
 
-  ![](Overview_Data-driven Testing.assets/img-011-16.png)
+  ![avatar](../imgs/ln/img-011-16.png)
 
 - **在脚本视图中**
 
@@ -362,7 +362,7 @@ Katalon Studio 支持在 RESTful Web 服务对象的以下位置调用声明的�
 
 下面的屏幕截图说明了在 URL 中使用“**状态**”变量的示例。
 
-![](Overview_Data-driven Testing.assets/img-011-18.png)
+![avatar](../imgs/ln/img-011-18.png)
 
 ### 对于基于 SOAP 的请求
 
@@ -376,7 +376,7 @@ Katalon Studio 支持在 RESTful Web 服务对象的以下位置调用声明的�
 
 下面是在 SOAP 请求的服务端点中参数化域 URL 的示例。
 
-![](Overview_Data-driven Testing.assets/img-011-19.png)
+![avatar](../imgs/ln/img-011-19.png)
 
 ## 将测试请求添加到测试用例
 
@@ -392,18 +392,18 @@ Katalon Studio 支持在测试用例中使用 Web 服务对象的各种方式。
 
 您可以直接从*对象详细信息视图***将**Web 服务请求添加到测试用例。只需单击*加号*图标即可添加到*新*测试用例或任何*现有*测试用例。
 
-![](Overview_Data-driven Testing.assets/img-011-20.png)
+![avatar](../imgs/ln/img-011-20.png)
 
 ### 在测试用例编辑器的手动视图中
 
 按照以下步骤在 **手动** 视图中使用 Web 服务对象：
 
 1. **在手动**视图中打开一个测试用例 ，然后 从命令工具栏中 选择添加 ****Web Service Keyword**。**
-   ![](Overview_Data-driven Testing.assets/img-011-21.png)
+   ![avatar](../imgs/ln/img-011-21.png)
 
 2. 一个 Web 服务步骤被添加到测试用例中。 
    要向 Web 服务发送请求，您需要使用 **[Send Request](https://docs.katalon.com/display/KD/[WS]+Send+Request)** 关键字。现在选择 **[发送请求](https://docs.katalon.com/display/KD/[WS]+Send+Request)** 关键字。
-   ![](Overview_Data-driven Testing.assets/img-011-22.png)
+   ![avatar](../imgs/ln/img-011-22.png)
 
 3. 双击对象单元格以指定要 **[发送请求](https://docs.katalon.com/display/KD/[WS]+Send+Request)**的 Web 服务对象。
 
@@ -411,7 +411,7 @@ Katalon Studio 支持在测试用例中使用 Web 服务对象的各种方式。
    >
    > 当您在测试用例中修改 Web 服务测试对象的变量时，这些值将仅适用于该特定测试用例。如果您在另一个测试用例中重用该测试对象，Katalon Studio 将获得在测试对象编辑器中定义的原始值。
 
-   ![](Overview_Data-driven Testing.assets/img-011-23.png)
+   ![avatar](../imgs/ln/img-011-23.png)
 
 4.  如果需要，可以根据您的情况 使用不同的 **[Verify...关键字来验证](https://docs.katalon.com/display/KD/Web+Service)****[Send Request](https://docs.katalon.com/display/KD/[WS]+Send+Request)**关键字的输出 。
 
@@ -460,18 +460,18 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 
 与其他测试工件一样，您可以在**Tests Explorer中对****执行配置文件**进行CRUD 。
 
-![](Overview_Data-driven Testing.assets/img-011-26.png)
+![avatar](../imgs/ln/img-011-26.png)
 
 您需要通过添加[全局变量](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables)来定义配置文件的内容。执行以下操作：
 
 1. 选择配置文件 > 单击**添加**。
 
 2. 在“**新建变量”**对话框中，指定变量的详细信息 > 单击“**确定**” 。
-   ![](Overview_Data-driven Testing.assets/img-011-27.png)
+   ![avatar](../imgs/ln/img-011-27.png)
 
 3. 该变量被相应地添加到配置文件中。
 
-   ![](Overview_Data-driven Testing.assets/img-011-28.png)
+   ![avatar](../imgs/ln/img-011-28.png)
 
 ### 查看个人资料
 
@@ -479,7 +479,7 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 
 在**脚本视图**中，一旦需要类似的**全局变量**列表来测试不同的环境类型，配置文件就会同步。要执行，请将变量列表从一个配置文件复制并粘贴到另一个配置文件。
 
- ![](Overview_Data-driven Testing.assets/img-011-29.png)
+ ![avatar](../imgs/ln/img-011-29.png)
 
 ### 在项目级别设置默认配置文件
 
@@ -491,15 +491,15 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 
 右键单击所需的执行配置文件并选择**Set as default Execution Profile**。
 
-![](Overview_Data-driven Testing.assets/img-011-30.png)
+![avatar](../imgs/ln/img-011-30.png)
 
 此配置文件成为测试用例、测试套件和测试套件集合的默认执行选项。
 
-![](Overview_Data-driven Testing.assets/img-011-31.png)
+![avatar](../imgs/ln/img-011-31.png)
 
 如果您使用 Katalon 运行时引擎，它也适用于命令生成器的执行平台。
 
-![](Overview_Data-driven Testing.assets/img-011-32.png)
+![avatar](../imgs/ln/img-011-32.png)
 
 ### 配置文件继承
 
@@ -514,14 +514,14 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 以下示例说明了**配置文件继承**功能的工作原理。
 
 - 给定以下测试用例：
-  ![](Overview_Data-driven Testing.assets/img-011-33.png)
+  ![avatar](../imgs/ln/img-011-33.png)
 - 使用给定的测试用例执行默认配置文件：
 
-![](Overview_Data-driven Testing.assets/img-011-34.png)
+![avatar](../imgs/ln/img-011-34.png)
 
 结果如下图所示：
 
-![](Overview_Data-driven Testing.assets/img-011-35.png)
+![avatar](../imgs/ln/img-011-35.png)
 
 ★ 使用给定的测试用例执行分段和生产配置文件：
 
@@ -529,19 +529,19 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 
 - 分期简介：
 
-![](Overview_Data-driven Testing.assets/img-011-36.png)
+![avatar](../imgs/ln/img-011-36.png)
 
 结果如下图所示：
 
-![](Overview_Data-driven Testing.assets/img-011-37.png)
+![avatar](../imgs/ln/img-011-37.png)
 
 生产概况：
 
-![](Overview_Data-driven Testing.assets/img-011-38.png)
+![avatar](../imgs/ln/img-011-38.png)
 
 结果如下图所示：
 
-![](Overview_Data-driven Testing.assets/img-011-39.png)
+![avatar](../imgs/ln/img-011-39.png)
 
 ### 使用个人资料
 
@@ -550,12 +550,12 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 以下部分向您展示了一个使用示例。有基于测试环境的三个配置文件：**local**、**staging**和**production**。
 
 - **对于测试用例或测试套件**：在右上角选择所需的配置文件 >当前项目中的**所有全局变量自动使用这些值。**
-  ![](Overview_Data-driven Testing.assets/img-011-40.png)
+  ![avatar](../imgs/ln/img-011-40.png)
 - **对于测试套件集合：在****Profile**列中选择要与您的测试套件一起执行的所需配置文件。
-  ![](Overview_Data-driven Testing.assets/img-011-41.png)
+  ![avatar](../imgs/ln/img-011-41.png)
 - **对于[控制台模式](https://docs.katalon.com/display/KD/Console+Mode+Execution)执行：在****配置文件**字段中选择您想要的配置文件。
 
-![](Overview_Data-driven Testing.assets/img-011-42.png)
+![avatar](../imgs/ln/img-011-42.png)
 
 - **Generated Command**具有**executionProfile**参数，以便您可以手动更改它。例如：
 
@@ -573,13 +573,13 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 
 您可以发现“测试套件/新测试套件 (1)”在以下屏幕截图中列出了两次。第一个使用“默认”，第二个使用“分期”。此关联证明**Profile 是 Test Suite scoped**。否则，该关联不能在逻辑上有效。
 
-![](Overview_Data-driven Testing.assets/img-011-43.png)
+![avatar](../imgs/ln/img-011-43.png)
 
 ### 使用全局变量
 
 项目中的任何测试用例都可以使用全局变量——例如，[手动视图](https://docs.katalon.com/display/KD/Manual+View)中关键字的输入数据（以蓝色突出显示）或[为测试执行绑定数据](https://docs.katalon.com/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding)时的参数（以红色突出显示）。
 
-![](Overview_Data-driven Testing.assets/img-011-44.png)
+![avatar](../imgs/ln/img-011-44.png)
 
 ### 参数化全局变量
 
@@ -594,12 +594,12 @@ def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["v
 例如：
 
 - 在 API 测试对象的 HTTP 正文中：
-  ![](Overview_Data-driven Testing.assets/img-011-45.png)
+  ![avatar](../imgs/ln/img-011-45.png)
 - 在 WebUI 测试对象的选定定位器中：
-  ![](Overview_Data-driven Testing.assets/img-011-46.png)
+  ![avatar](../imgs/ln/img-011-46.png)
 - 在 Web 服务请求的请求 URL 中：
 
-![](Overview_Data-driven Testing.assets/img-011-47.png)
+![avatar](../imgs/ln/img-011-47.png)
 
 ### 使用转义字符、特殊字符
 
@@ -685,17 +685,17 @@ println "${employee} - ${department}"
 
 *注意：记住完成后保存测试用例。*
 
-![](Overview_Data-driven Testing.assets/img-011-48.png)
+![avatar](../imgs/ln/img-011-48.png)
 
 使用变量运行测试用例后的结果将与硬编码值相同：
 
-![](Overview_Data-driven Testing.assets/img-011-49.png)
+![avatar](../imgs/ln/img-011-49.png)
 
 ## 在脚本模式下查看和声明变量
 
 切换到**变量（脚本模式）**选项卡，Katalon Studio 将显示一个 XML 格式的脚本编辑器。例如：
 
-![](Overview_Data-driven Testing.assets/img-011-50.png)
+![avatar](../imgs/ln/img-011-50.png)
 
 ## 使用变量调用测试用例
 
@@ -703,19 +703,19 @@ println "${employee} - ${department}"
 2. 将显示显示项目中所有现有测试用例的**测试用例浏览器对话框。**选择要调用的测试用例并单击**OK**。
 
 在以下示例中，将调用“带变量的测试用例”。
-![](Overview_Data-driven Testing.assets/img-011-51.png)
+![avatar](../imgs/ln/img-011-51.png)
 
 3. 将添加一个**调用测试用例**步骤，上面选择的测试用例作为其目标。
 
-![](Overview_Data-driven Testing.assets/img-011-52.png)
+![avatar](../imgs/ln/img-011-52.png)
 
-![](Overview_Data-driven Testing.assets/img-011-53.png)
+![avatar](../imgs/ln/img-011-53.png)
 
-![](Overview_Data-driven Testing.assets/img-011-54.png)
+![avatar](../imgs/ln/img-011-54.png)
 
 运行测试用例后的结果如下图所示：
 
-![](Overview_Data-driven Testing.assets/img-011-55.png)
+![avatar](../imgs/ln/img-011-55.png)
 
 ### 以脚本模式调用测试用例
 
@@ -767,7 +767,7 @@ Katalon Studio 提供了使用外部数据源执行自动化测试的能力。
 
 6. 完成上述所有步骤后，保存并运行您的测试套件以查看以下结果：
 
-   ![](Overview_Data-driven Testing.assets/img-011-63.png)
+   ![avatar](../imgs/ln/img-011-63.png)
    
 
 > **小建议：**

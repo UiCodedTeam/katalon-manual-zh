@@ -61,7 +61,7 @@ Katalon Studio 的开始步骤似乎相对不言自明。但是，您可能想�
 
 您还可以使用 Katalon Studio 来执行这两种手动测试。该工具独特地为手动和自动测试提供了双脚本界面：
 
-![](Overview.assets/img-004-01.png)
+![avatar](../imgs/ln/img-004-01.png)
 
 为了付诸实践，测试人员和开发人员团队如何将这些步骤应用于完整的工作流程：自动化专家准备所有脚本工作，例如自定义关键字、[测试侦听](https://docs.katalon.com/katalon-studio/docs/test-listeners-test-hooks.html)器、[调用测试用例](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view)等。然后，手动 QAs-不熟悉脚本的人——可以利用所有准备好的材料来构建测试用例。最终，手动 QA 可以逐渐学习如何编写脚本并成为自动化脚本编写者。
 
@@ -73,7 +73,7 @@ Katalon Studio 的开始步骤似乎相对不言自明。但是，您可能想�
 
 Katalon Studio 提供了一组丰富的验证关键字来轻松处理该要求。再一次，这种脚本可以在手动或脚本模式下完成。
 
-![](Overview.assets/img-004-02.png)
+![avatar](../imgs/ln/img-004-02.png)
 
 ```
 - WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment', FailureHandling.STOP_ON_FAILURE)
@@ -81,7 +81,7 @@ Katalon Studio 提供了一组丰富的验证关键字来轻松处理该要求�
 
 之后，可以在[Log Viewer](https://docs.katalon.com/katalon-studio/tutorials/viewing_execution_logs.html)中查看执行结果。要了解如何查看执行日志，请访问此[文档](https://docs.katalon.com/katalon-studio/tutorials/viewing_execution_logs.html)。
 
-![](Overview.assets/img-004-03.png)
+![avatar](../imgs/ln/img-004-03.png)
 
 **第 4 步：调试测试用例**
 
@@ -89,31 +89,31 @@ Katalon Studio 提供了一组丰富的验证关键字来轻松处理该要求�
 
 **选项 1：调查错误日志**
 
-![](Overview.assets/img-004-04.png)
+![avatar](../imgs/ln/img-004-04.png)
 
 **选项 2：调试模式**
 
 为了研究复杂的场景，Katalon Studio 提供了一种调试机制，其工作方式与高级开发人员 IDE 中的代码调试机制相同。
 
-![](Overview.assets/img-004-05.png)
+![avatar](../imgs/ln/img-004-05.png)
 
 **选项 3：手动调试**
 
 Katalon Studio 的“录制”功能也有自己的调试方法。您可以继续记录失败的测试用例，运行错误测试步骤，然后直接在记录模式下调查并修复问题。请参阅以下示例：
 
-![](Overview.assets/img-004-06.png)
+![avatar](../imgs/ln/img-004-06.png)
 
-![](Overview.assets/img-004-07.png)
+![avatar](../imgs/ln/img-004-07.png)
 
-![](Overview.assets/img-004-08.png)
+![avatar](../imgs/ln/img-004-08.png)
 
 **第 5 步：在测试套件中规划测试用例**
 
 右键单击*测试套件 > 新建 > 测试套件*
 
-[测试套件](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html)用于计划具有多种配置的测试用例，例如：重试失败、电子邮件发送或数据驱动绑定。**您可以通过展开执行信息**部分来管理测试套件执行的其他配置，如下所示：![](Overview.assets/img-004-09.png)
+[测试套件](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html)用于计划具有多种配置的测试用例，例如：重试失败、电子邮件发送或数据驱动绑定。**您可以通过展开执行信息**部分来管理测试套件执行的其他配置，如下所示：![avatar](../imgs/ln/img-004-09.png)
 
-![](Overview.assets/img-004-10.png)
+![avatar](../imgs/ln/img-004-10.png)
 
 欲了解更多详情，请访问[此处](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html)。
 
@@ -123,7 +123,7 @@ Katalon Studio 的“录制”功能也有自己的调试方法。您可以继�
 
 最后一步是在设计的测试套件中执行测试用例。以下是执行测试用例的方法：一旦计划好，测试套件或测试套件集合不仅可以直接在 Katalon Studio 中执行，还可以通过[命令行执行](https://docs.katalon.com/katalon-studio/tutorials/generate_command_line.html)。连同执行结果的标准 JUnit 格式和[预构建的 Docker 映像](https://github.com/katalon-studio/docker-images)，这些功能将使您能够充分灵活地使用 Jenkins 或 CircleCI 等工具将 Katalon Studio 集成到 CI/CD 管道中。
 
-![](Overview.assets/img-004-11.png)
+![avatar](../imgs/ln/img-004-11.png)
 
 ## 下一步
 

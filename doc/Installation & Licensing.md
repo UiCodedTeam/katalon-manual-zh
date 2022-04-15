@@ -92,11 +92,11 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 3. 要下载 Katalon Studio，请单击在**Katalon Studio**框中**创建您的第一个测试**。Katalon 将引导您进入下载页面，它会自动检测并下载适合您系统的版本。
 
-   ![](Installation & Licensing.assets/img-001-01.png)
+   ![avatar](../imgs/ln/img-001-01.png)
 
 您还可以在页面上为您的系统选择首选版本。
 
-![](Installation & Licensing.assets/img-001-02.png)
+![avatar](../imgs/ln/img-001-02.png)
 
 ## 启动 Katalon Studio
 
@@ -104,7 +104,7 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 1.下载 .zip 文件后，将其解压缩到`C:\Users\<username>`文件夹中。
 
-![](Installation & Licensing.assets/img-001-03.png)
+![avatar](../imgs/ln/img-001-03.png)
 
 **笔记**
 
@@ -112,7 +112,7 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 2. 要启动 Katalon Studio，请双击**katalon.exe**文件。
 
-![](Installation & Licensing.assets/img-001-04.png)
+![avatar](../imgs/ln/img-001-04.png)
 
 - 确保在 Katalon Studio 和当前操作系统中使用默认字体大小（设置为 100%），以避免名称字段不显示在某些弹出窗口上。
 
@@ -127,11 +127,11 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 2. 出现提示时将 Katalon Studio 添加到**Application**文件夹。
 
-   ![](Installation & Licensing.assets/img-001-05.png)
+   ![avatar](../imgs/ln/img-001-05.png)
 
    3. 要启动 Katalon Studio，请双击**Katalon Studio**应用程序。
 
-      ![](Installation & Licensing.assets/img-001-06.png)
+      ![avatar](../imgs/ln/img-001-06.png)
 
       > **对于 macOS Catalina 用户：**
       >
@@ -139,13 +139,13 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
       - 启动后，应用程序应显示类似于以下屏幕截图的启动屏幕：
 
-        ![](Installation & Licensing.assets/img-001-07.png)
+        ![avatar](../imgs/ln/img-001-07.png)
 
 ## 激活 Katalon Studio
 
 1. Katalon Studio 应用程序启动，然后出现**Katalon Studio 激活**对话框。登录您的 Katalon 帐户以激活您的许可证。要了解有关许可证激活步骤的更多信息，请参阅[激活 Katalon Studio 许可证](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license)。
 
-   ![](Installation & Licensing.assets/img-001-08.png)
+   ![avatar](../imgs/ln/img-001-08.png)
 
 2. 完成后，单击**激活**。现在 Katalon Studio 可以使用了。
 
@@ -157,7 +157,7 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
    - **API / Web服务**：用于API独有的功能/ Web服务测试被使能，包括从输入测试请求的图标[的OpenAPI规范3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html)，[WADLs](https://docs.katalon.com/katalon-studio/docs/import-wadl.html)，[WSDL中](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html)，[OpenAPI的规范2.0（[Swagger](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html))，和[Postman](https://docs.katalon.com/katalon-studio/docs/import-soapui.html); [请求历史列表](https://docs.katalon.com/katalon-studio/docs/request-history.html)等。
 
-     ![](Installation & Licensing.assets/img-001-09.png)
+     ![avatar](../imgs/ln/img-001-09.png)
 
 2. 为新项目指定**名称**、 **位置**和**描述**，然后单击**确定**。
 
@@ -167,17 +167,17 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 1.  从菜单中选择 **文件 > 打开项目**。浏览到您的项目所在的文件夹并选择它。
 
-   ![](Installation & Licensing.assets/img-001-10.png)
+   ![avatar](../imgs/ln/img-001-10.png)
 
    2. 您还可以通过从“**文件”** 菜单下显示的列表中进行选择来快速打开最近的测试项目 ：
 
-      ![](Installation & Licensing.assets/img-001-11.png)
+      ![avatar](../imgs/ln/img-001-11.png)
 
       ## 刷新项目
 
       如果项目文件已被修改且尚未反映在 Katalon Studio 中，您可以刷新项目以显示最新信息，如下图所示：
 
-      ![](Installation & Licensing.assets/img-001-12.png)
+      ![avatar](../imgs/ln/img-001-12.png)
 
       ## 清理项目
 
@@ -190,7 +190,7 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
        在**File** 菜单下选择 **Clean...**， 如下图所示：
 
-![](Installation & Licensing.assets/img-001-13.png)
+![avatar](../imgs/ln/img-001-13.png)
 
 ## 删除项目
 

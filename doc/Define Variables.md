@@ -27,17 +27,17 @@ println "${employee} - ${department}"
 
 *注意：记住完成后保存测试用例。*
 
-![](Define Variables.assets/img-011-48.png)
+![avatar](../imgs/ln/img-011-48.png)
 
 使用变量运行测试用例后的结果将与硬编码值相同：
 
-![](Define Variables.assets/img-011-49.png)
+![avatar](../imgs/ln/img-011-49.png)
 
 ## 在脚本模式下查看和声明变量
 
 切换到**变量（脚本模式）**选项卡，Katalon Studio 将显示一个 XML 格式的脚本编辑器。例如：
 
-![](Define Variables.assets/img-011-50.png)
+![avatar](../imgs/ln/img-011-50.png)
 
 ## 使用变量调用测试用例
 
@@ -45,19 +45,19 @@ println "${employee} - ${department}"
 2. 将显示显示项目中所有现有测试用例的**测试用例浏览器对话框。**选择要调用的测试用例并单击**OK**。
 
 在以下示例中，将调用“带变量的测试用例”。
-![](Define Variables.assets/img-011-51.png)
+![avatar](../imgs/ln/img-011-51.png)
 
 3. 将添加一个**调用测试用例**步骤，上面选择的测试用例作为其目标。
 
-![](Define Variables.assets/img-011-52.png)
+![avatar](../imgs/ln/img-011-52.png)
 
-![](Define Variables.assets/img-011-53.png)
+![avatar](../imgs/ln/img-011-53.png)
 
-![](Define Variables.assets/img-011-54.png)
+![avatar](../imgs/ln/img-011-54.png)
 
 运行测试用例后的结果如下图所示：
 
-![](Define Variables.assets/img-011-55.png)
+![avatar](../imgs/ln/img-011-55.png)
 
 ### 以脚本模式调用测试用例
 

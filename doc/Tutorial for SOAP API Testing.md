@@ -8,7 +8,7 @@
 
 2. 在**New Web Service Request** 对话框中，在**Request Type**列表中选择**SOAP ，然后单击****OK**创建一个新的 SOAP 对象。
 
-   ![](Tutorial for SOAP API Testing.assets/img-008-01.png)
+   ![avatar](../imgs/ln/img-008-01.png)
 
 3.  在Katalon Studio的**对象存储库**下创建了一个**新的**请求对象。
 
@@ -18,31 +18,31 @@
 
 成功创建请求后，双击请求以打开其编辑器以添加详细信息。在**新请求**对象的打开编辑器中，您可以看到请求对象的所有必需信息。
 
-![](Tutorial for SOAP API Testing.assets/img-008-02.png)
+![avatar](../imgs/ln/img-008-02.png)
 
 ### 请求方法
 
 request 方法指示要在指定资源上执行的预期操作。Katalon Studio 支持以下 SOAP 方法：SOAP、SOAP 1.2、POST、GET。默认情况下，Katalon 选择 SOAP 作为新 SOAP 请求的方法。
 
-![](Tutorial for SOAP API Testing.assets/img-008-03.png)
+![avatar](../imgs/ln/img-008-03.png)
 
 ### WSDL 网址
 
 此字段用于 WSDL 路径，Katalon Studio 从该路径将内容导入此 SOAP 请求。
 
-![](Tutorial for SOAP API Testing.assets/img-008-04.png)
+![avatar](../imgs/ln/img-008-04.png)
 
 ### 服务功能
 
 您要在此 SOAP 请求中使用的函数。单击**Load Service Function**时，您可以从 WSDL 文件中检索可用的服务功能列表。
 
-![](Tutorial for SOAP API Testing.assets/img-008-05.png)
+![avatar](../imgs/ln/img-008-05.png)
 
 每个 Service Function 都携带自己的内容，包括 Service Endpoint、SOAPAction Header 和 Request 消息。
 
 在**Service Endpoint**中，您可以指定另一个 URL，指示此请求的所需服务端点。
 
-![](Tutorial for SOAP API Testing.assets/img-008-06.png)
+![avatar](../imgs/ln/img-008-06.png)
 
 ### 请求认证
 
@@ -54,19 +54,19 @@ request 方法指示要在指定资源上执行的预期操作。Katalon Studio 
 - [OAuth 1.0](https://docs.katalon.com/katalon-studio/docs/authorization-oauth1.html)
 - [OAuth 2.0](https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html)
 
-![](Tutorial for SOAP API Testing.assets/img-008-07.png)
+![avatar](../imgs/ln/img-008-07.png)
 
 ### 请求标头
 
 标头信息需要与此 SOAP 请求一起发送。您可以从建议选项列表中选择标题（通过双击**名称**单元格）或输入您感兴趣的另一个标题。有关详细信息，请参阅[支持的 HTTP 标头](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)。
 
-![](Tutorial for SOAP API Testing.assets/img-008-08.png)
+![avatar](../imgs/ln/img-008-08.png)
 
 ### 请求消息
 
 您要在此 SOAP 请求中传输的信息。点击所选服务功能的**加载新内容**后即可获取。
 
-![](Tutorial for SOAP API Testing.assets/img-008-09.png)
+![avatar](../imgs/ln/img-008-09.png)
 
 ## 回复
 
@@ -81,11 +81,11 @@ request 方法指示要在指定资源上执行的预期操作。Katalon Studio 
 有 2 种查看格式：**pretty**和**raw**。例如，SOAP 的响应`http://www.dneonline.com/calculator.asmx?WSDL`如下所示。
 
 - 漂亮的格式
-  ![](Tutorial for SOAP API Testing.assets/img-008-10.png)
+  ![avatar](../imgs/ln/img-008-10.png)
 
 - 原始格式
 
-  ![](Tutorial for SOAP API Testing.assets/img-008-11.png)
+  ![avatar](../imgs/ln/img-008-11.png)
 
 ### 响应头
 

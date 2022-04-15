@@ -10,7 +10,7 @@
 
 要记录新的测试用例，请执行以下操作：
 
-1. 单击**Web Record Utility**![](Tutorial_Web UI Testing.assets/img-005-01.png)图标以打开 Web Recorder。
+1. 单击**Web Record Utility**![avatar](../imgs/ln/img-005-01.png)图标以打开 Web Recorder。
 
 2. 输入您的 Web 应用程序的 URL。例如，https://katalon-demo-cura.herokuapp.com/
 
@@ -18,7 +18,7 @@
 
    Katalon Studio 的默认浏览器是 Chrome，其图标显示在右上角。如果您更喜欢其他支持的浏览器，您可以在**Project/Settings/Execution/Default execution**中更改默认浏览器，或单击下拉按钮选择您喜欢的浏览器：
 
-   ![](Tutorial_Web UI Testing.assets/img-005-02.png)
+   ![avatar](../imgs/ln/img-005-02.png)
 
    | 类型       | 描述                          | 笔记                                                         |
    | :--------- | :---------------------------- | :----------------------------------------------------------- |
@@ -31,11 +31,11 @@
 
 > 提示：您可以使用热键捕捉对象（按 的组合`<Alt + back quote>`）。捕获的对象将以绿色边框突出显示。
 
-![](Tutorial_Web UI Testing.assets/img-005-03.png)
+![avatar](../imgs/ln/img-005-03.png)
 
 6. 与网页交互。在此示例中，尝试使用提供的凭据登录。记录的步骤将在**Recorded Actions**中自动生成。当您输入**密码**字段时，Katalon Web Recorder 会自动使用“[设置加密文本](https://docs.katalon.com/display/KD/[WebUI]+Set+Encrypted+Text)”关键字。输入的值将被加密以确保安全。
 
-![](Tutorial_Web UI Testing.assets/img-005-04.png)
+![avatar](../imgs/ln/img-005-04.png)
 
 7. 停止录制并保存您的脚本。
 
@@ -51,13 +51,13 @@
 
    所有现有的测试步骤和[测试用例变量](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Localvariables)将分别导入到Web Recorder 中的**Recorded Actions**和**Variables选项卡。**您无需重复已记录的测试步骤。
 
-   ![](Tutorial_Web UI Testing.assets/img-005-05.png)
+   ![avatar](../imgs/ln/img-005-05.png)
 
 3. 与 AUT 交互。
 
 保存脚本时，Katalon Studio 会自动检测**Objects Repository**中类似的现有对象，并要求您采取进一步措施来优化 Object Repository。
 
-![](Tutorial_Web UI Testing.assets/img-005-06.png)
+![avatar](../imgs/ln/img-005-06.png)
 
 ## 验证 UI 元素
 
@@ -65,15 +65,15 @@
 
 如果您输入了不正确的用户名或密码，您可以验证网站是否显示指示登录尝试失败的错误消息。
 
-![](Tutorial_Web UI Testing.assets/img-005-07.png)
+![avatar](../imgs/ln/img-005-07.png)
 
 或者，您可以通过验证特定 UI 元素是否存在来验证成功登录后的下一个屏幕是否“正确”。
 
-![](Tutorial_Web UI Testing.assets/img-005-08.png)
+![avatar](../imgs/ln/img-005-08.png)
 
 **在运行**按钮的下拉列表中，您可以找到一些运行选项。标有“调试”的两个是高级选项，用于验证录制的脚本，如果您拥有 Katalon Studio Enterprise 许可证，您可以避免一遍又一遍地运行所有测试步骤：
 
-![](Tutorial_Web UI Testing.assets/img-005-09.png)
+![avatar](../imgs/ln/img-005-09.png)
 
 - **运行所有步骤**：执行在 Web Recorder 上启用的所有步骤
 
@@ -81,11 +81,11 @@
 
   您可以使用 Ctrl 或 Shift 键选择多个步骤。选定的步骤将突出显示（例如，步骤#2、#6、#9 和#11 被选中运行）。
 
-  ![](Tutorial_Web UI Testing.assets/img-005-10.png)
+  ![avatar](../imgs/ln/img-005-10.png)
 
 **调试：从选定的步骤运行**：执行当前选定的步骤和选定步骤之后的所有步骤（例如从步骤#4 运行测试。
 
-![](Tutorial_Web UI Testing.assets/img-005-11.png)
+![avatar](../imgs/ln/img-005-11.png)
 
 ## Katalon Web Recorder 实用程序的组件
 
@@ -93,25 +93,25 @@
 
 Katalon Web Recorder Utility 中可用的操作与 Katalon Studio 的[内置关键字](https://docs.katalon.com/display/KD/Built-in+Keywords)相同。您可以添加任何操作、调用另一个测试用例和/或使用自定义关键字。
 
-![](Tutorial_Web UI Testing.assets/img-005-12.png)
+![avatar](../imgs/ln/img-005-12.png)
 
 ### 捕获的对象
 
 在您的录制过程中，Katalon 会捕捉您与之交互的对象。保存测试脚本时，**Katalon Web Recorder 会**导出测试用例中使用的对象列表。[了解有关 Web UI 测试对象](https://docs.katalon.com/x/tQTR)的更多信息。
 
-![](Tutorial_Web UI Testing.assets/img-005-13.png)
+![avatar](../imgs/ln/img-005-13.png)
 
 ### 变量
 
 在 Katalon Web Recorder 中，您可以管理与您的录音直接相关的[变量。](https://docs.katalon.com/x/RoIw)
 
-![](Tutorial_Web UI Testing.assets/img-005-14.png)
+![avatar](../imgs/ln/img-005-14.png)
 
 ### 日志
 
 在运行记录的操作时，您可以通过查看其实时详细日志来调查执行情况。执行日志显示在“**日志**”选项卡上。
 
-![](Tutorial_Web UI Testing.assets/img-005-15.png)
+![avatar](../imgs/ln/img-005-15.png)
 
 对于分支、循环或验证等高级功能，您可以参考以下文章： 
 

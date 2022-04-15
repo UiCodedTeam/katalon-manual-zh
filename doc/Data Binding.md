@@ -6,7 +6,7 @@ Katalon Studio 提供了使用外部数据源执行自动化测试的能力。
 
 请参阅[本文](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data)了解如何在 Katalon Studio 中创建新的 Excel 测试数据。所选 Excel 文件中的数据将填充到预览部分，如下例所示。
 
-![img-011-56](Data Binding.assets/img-011-56.png)
+![avatar](../imgs/ln/img-011-56.png)
 
 ## 使用测试用例变量创建新的测试套件
 

@@ -22,11 +22,11 @@ Katalon Studio 支持：
 
 要创建一个新的 Java 类文件，在**Tests Explorer**面板中，转到**Include > scripts > groovy**文件夹，右键单击并选择**New > Java Class**。**选择一个包并在“新建”**对话框中输入类名。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-01.png)
+![avatar](../imgs/ln/img-006-01.png)
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-02.png)
+![avatar](../imgs/ln/img-006-02.png)
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-03.png)
+![avatar](../imgs/ln/img-006-03.png)
 
 ## 内置 TestNG/JUnit 关键字
 
@@ -34,9 +34,9 @@ Katalon Studio 支持：
 
 **您可以使用TestNG/JUnit 关键字**插件在手动视图中启用内置关键字。您可以在此处从 Katalon 商店下载插件：[TestNG/JUnit 关键字](https://store.katalon.com/product/180/TestNG-JUnit-Keywords)。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-04.png)
+![avatar](../imgs/ln/img-006-04.png)
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-05.png)
+![avatar](../imgs/ln/img-006-05.png)
 
 安装插件后，进入 Katalon Studio 并点击**Reload Plugins**。
 
@@ -94,7 +94,7 @@ TestNG/JUnit 关键字插件提供 3 个内置关键字来帮助您运行 TestNG
 要将 Selenium/TestNG/JUnit 脚本迁移到 Katalon Studio 项目，请执行以下操作：
 
 1. 在 Katalon Studio 中创建一个新项目。转到**文件 > 新建 > 项目**
-   ![](Test Migration from Selenium & Selenium IDE.assets/img-006-06.png)
+   ![avatar](../imgs/ln/img-006-06.png)
 
 2. 构建项目依赖项。
 
@@ -105,31 +105,31 @@ TestNG/JUnit 关键字插件提供 3 个内置关键字来帮助您运行 TestNG
    > - 您只需要添加不是 Selenium 依赖项的 JUnit/TestNG 项目依赖项。
    > - Katalon Studio 已捆绑了 TestNG、JUnit 和 Selenium 依赖项，您无需再次声明这些依赖项。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-07.png)
+![avatar](../imgs/ln/img-006-07.png)
 
 2.2 打开**命令提示符**或**终端**并导航到项目的文件夹。输入`gradle katalonCopyDependencies`，然后等待 Gradle 构建成功。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-08.png)
+![avatar](../imgs/ln/img-006-08.png)
 
 2.3 重新打开项目重新加载所有依赖。
 
 3. 将Selenium/TestNG/JUnit项目的源代码复制并粘贴到Katalon项目的Include/scripts/groovy文件夹中。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-09.gif)
+![avatar](../imgs/ln/img-006-09.gif)
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-10.png)
+![avatar](../imgs/ln/img-006-10.png)
 
 4. 将Selenium/TestNG/JUnit项目的其他资源复制并粘贴到Katalon项目（如果有）的Include文件夹中。
 
-   ![](Test Migration from Selenium & Selenium IDE.assets/img-006-11.gif)
+   ![avatar](../imgs/ln/img-006-11.gif)
 
 5. 要从Selenium/TestNG/JUnit项目中重新加载源代码和资源，请右键单击Include文件夹，然后单击Refresh。
 
-   ![](Test Migration from Selenium & Selenium IDE.assets/img-006-12.png)
+   ![avatar](../imgs/ln/img-006-12.png)
 
 6. 创建一个包含TestNG关键字的测试用例，以运行TestNG测试套件或JUnit测试类。要了解更多关于TestNG关键字的信息，请参阅上文：内置TestNG/JUnit关键字。
 
-   ![](Test Migration from Selenium & Selenium IDE.assets/img-006-13.png)
+   ![avatar](../imgs/ln/img-006-13.png)
 
 **笔记：**
 
@@ -164,7 +164,7 @@ In Katalon Studio:
 1. 创建或打开一个项目
 2. 从菜单栏中，选择文件>导入Selenium IDE项目，并浏览Selenium IDE文件（扩展名为.side的单个文件）以打开。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-14.png)
+![avatar](../imgs/ln/img-006-14.png)
 
 ## 将 Selenium IDE 映射到 Katalon Studio 测试工作
 
@@ -174,7 +174,7 @@ Selenium IDE项目包含测试、套件和执行。Katalon Studio只导入测试
 
 在Tests Explorer的Test Suites文件夹下，Katalon Studio创建了一个Imported from Selenium IDE Scripts文件夹来存储导入的套件。导入过程完成后，Katalon Studio会自动打开测试套件。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-15.png)
+![avatar](../imgs/ln/img-006-15.png)
 
 - 笔记：
 
@@ -186,11 +186,11 @@ Selenium IDE项目包含测试、套件和执行。Katalon Studio只导入测试
 
 在Tests Explorer的Test Cases文件夹下，Katalon Studio创建一个Imported from Selenium IDE Scripts/<suite name>文件夹来存储导入的测试。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-16.png)
+![avatar](../imgs/ln/img-006-16.png)
 
 导入的测试用例包含由Selenium IDE记录的一组Selenium命令。
 
-![](Test Migration from Selenium & Selenium IDE.assets/img-006-17.png)
+![avatar](../imgs/ln/img-006-17.png)
 
 - 笔记：
 

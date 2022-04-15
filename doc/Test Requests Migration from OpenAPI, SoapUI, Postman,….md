@@ -39,18 +39,18 @@ Katalon Studio 支持使用 RESTful 和 SOAP 服务进行 API 测试。您可以
 1. 打开或创建项目 > 导入服务定义有两种方式：
 
    - 对于 API 或 Web 服务项目类型，单击 OpenAPI 图标 > 选择**Import OpenAPI 3**。
-     ![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-01.png)
+     ![avatar](../imgs/ln/img-010-01.png)
    - 或者在**Tests Explorer**中，右键单击**Object Repository** > 选择**Import > From OpenAPI 3**。
 
-   ![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-02.png)
+   ![avatar](../imgs/ln/img-010-02.png)
 
 2. 在显示的对话框中，浏览您的**OpenAPI 3.0**本地文件 > 单击**OK**。
 
-![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-03.png)
+![avatar](../imgs/ln/img-010-03.png)
 
 ​	Katalon Studio 加载文件并相应地生成 RESTful 测试请求。
 
-![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-04.png)
+![avatar](../imgs/ln/img-010-04.png)
 
 
 
@@ -63,17 +63,17 @@ Katalon Studio 支持使用 RESTful 和 SOAP 服务进行 API 测试。您可以
 1. 然后打开或创建一个项目
 
 - 单击“**从 SoapUI 导入服务**”图标（仅适用于 API/Web 服务项目类型）；或者
-  ![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-05.png)
+  ![avatar](../imgs/ln/img-010-05.png)
 - 在**Tests Explorer**中，右键单击**Object Repository**的任何文件夹并选择**Import** > **From SoapUI**。
-  ![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-06.png)
+  ![avatar](../imgs/ln/img-010-06.png)
 
 3. 在显示的对话框中，浏览到您的**SoapUI**项目并单击**OK**。
 
-![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-07.png)
+![avatar](../imgs/ln/img-010-07.png)
 
 Katalon Studio 加载文件并相应地生成 RESTful/SOAP 请求对象。
 
-![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-08.png)
+![avatar](../imgs/ln/img-010-08.png)
 
 
 
@@ -83,12 +83,12 @@ Katalon Studio 加载文件并相应地生成 RESTful/SOAP 请求对象。
 
 1. 将 Postman 集合导出为 JSON。[请参阅此处](https://learning.getpostman.com/docs/postman/collections/data_formats/#exporting-and-importing-postman-data)的说明。
 2. 在 Katalon Studio 中，使用 API/Web 服务项目，单击 Postman 图标
-   ![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-09.png)
+   ![avatar](../imgs/ln/img-010-09.png)
 3. 在显示的对话框中，浏览您导出的 Postman 本地文件并单击**OK**。
 
-![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-10.png)
+![avatar](../imgs/ln/img-010-10.png)
 
 相应的测试请求将被导入到 Katalon Studio。
 
-![](Test Requests Migration from OpenAPI, SoapUI, Postman,….assets/img-010-11.png)
+![avatar](../imgs/ln/img-010-11.png)
 
