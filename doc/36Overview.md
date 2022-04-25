@@ -4,19 +4,19 @@
 
 > 为了获得最佳性能，请经常清理 Katalon 工作区。导航到**文件**>**清理**。
 
-功能文件位于项目文件夹中的**“包含/功能”**文件夹中，可以从*测试资源管理器*中看到：
+功能文件位于项目文件夹中的“**包含/功能**”文件夹中，可以从*测试资源管理器*中看到：
 
-![](../img/zs/img-036-01.png)
+![](../imgs/zs/img-036-01.png)
 
 *功能*文件的内容遵循 BDD 约定（_Given、When、The_n）。创建新*功能*文件时，将有一个“**生成示例功能模板**”选项，它将为您的*功能*文件生成示例模板。这将确保创建的*功能*文件与 BDD 约定匹配，以便您减少以正确格式 创建*功能文件*的校核工作。
 
-![](../img/zs/img-036-02.png)
+![](../imgs/zs/img-036-02.png)
 
 考察一个卡塔隆演示 Cura 系统 ( [http://demoaut.katalon.com ](http://demoaut.katalon.com) ).的示例。我们想使用有效和无效的凭据测试*登录*功能，因此内容将如下所示：
 
 > 标签是组织功能和场景的好方法。[阅读更多...](https://docs.cucumber.io/cucumber/api/#tags)
 
-![](../img/zs/img-036-03.png)
+![](../imgs/zs/img-036-03.png)
 
 **样本特征文件**
 
@@ -77,12 +77,12 @@ Feature: Login Feature
 当前*功能*文件会遇到以下的维护问题之一：
 
 - 当前格式组织得不正确。
-- 找出与当前“*Gherkin“*步骤映射的 *“步骤定义”*。
+- 找出与当前“*Gherkin*“步骤映射的 “*步骤定义*”。
 - *当步骤定义*发生变化时，重新计算*特征*文件中的步骤。
 
 以上困境已直接从功能文件编辑器的上下文菜单中处理掉了。
 
-![](../img/zs/img-036-04.png)
+![](../imgs/zs/img-036-04.png)
 
 **完美的格式**
 
@@ -112,7 +112,7 @@ Katalon Studio 内置关键字也可以在步骤定义文件中重复使用。
 
 例如，让我们从上面的*Features* File 中获取 Gherkin 场景并定义步骤：
 
-![](../img/zs/img-036-05.png)
+![](../imgs/zs/img-036-05.png)
 
 **步骤定义**
 
@@ -209,13 +209,13 @@ Katalon Studio 允许您随时自行运行功能文件，以确保其正常工�
 
 打开所需的**功能**文件，单击主工具栏上的 **播放** 按钮。
 
-![](../img/zs/img-036-06.png)
+![](../imgs/zs/img-036-06.png)
 
 ### 在测试用例中
 
 Katalon Studio 支持 Cucumber 关键字以及原始内置关键字。用户不必将 Cucumber 库导入 Katalon Studio。
 
-在 Katalon Studio 测试用例中包含 Cucumber *Feature文件：*
+在 Katalon Studio 测试用例中包含 Cucumber *Feature文件*：
 
 **执行单个功能文件（带或不带标签）**
 
@@ -247,4 +247,4 @@ Katalon TestOps 专门支持查看 BDD 测试结果以及高级分析和报告�
 
 Katalon Studio 支持Cucumber 报告的**三种**格式：JSON、XML、HTML。
 
-![](../img/zs/img-036-07.png)
+![](../imgs/zs/img-036-07.png)
