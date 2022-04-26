@@ -11,18 +11,16 @@ Katalon Studio提供了一个图像定位器方法来将测试对象与图像关
 ## 启用图像识别
 **7.6（含）之后的版本**
 
-默认情况下，在“Project ->Setting ->Self-Healing ->Web UI ->Test Execution”中启用了基于图像的对象识别。
+默认情况下，在“Project ->Setting ->Self-Healing ->Web UI ->Test Execution”中启用了基于图像的对象识别。([请参阅自我修复模式](https://docs.katalon.com/katalon-studio/docs/self-healing.html))
 ![avatar](../imgs/xj/img-031-01.png)
 
 **7.6之前的版本**
 
-默认情况下，在项目设置中禁用基于图像的对象识别。转到Project ->Setting ->Execution，并选中“启用图像识别”，以启用此回退策略。
-![avatar](../imgs/xj/img-031-02.png)
 
 ## 捕捉识别对象的截图
 ### 使用内置工具
 
-为了生成与捕获的测试对象相关的图像，Katalon Studio在Web Recorder和Spy实用程序中都包含了添加截图按钮。
+为了生成与捕获的测试对象相关的图像，Katalon Studio在Web Recorder和Spy实用程序中都包含了Add Screenshot按钮。
 
 这里我们使用间谍网络工具来捕捉屏幕截图。遵循以下步骤:
 
@@ -32,7 +30,7 @@ Katalon Studio提供了一个图像定位器方法来将测试对象与图像关
 2. 在Spy对话框中，指定您的AUT和web浏览器的URL。单击Start按钮开始捕获。
 ![avatar](../imgs/xj/img-031-04.png)
 
-3. 要捕获一个对象，将鼠标光标悬停在web元素上，并按键的组合。您也可以右键单击web元素并选择Capture。
+3. 要捕获一个对象，将鼠标光标悬停在web元素上，然后按<Alt + `>键的组合。您也可以右键单击web元素并选择Capture。
 ![avatar](../imgs/xj/img-031-05.png)
 
 4. 在capture Objects视图中，选择捕获的对象并单击右下角的Add Screenshot按钮。
