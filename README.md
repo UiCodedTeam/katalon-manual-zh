@@ -31,7 +31,7 @@ Katalon Studio是一个针对Web、API、移动和桌面的一体化测试自动
 |  数据驱动测试 | 行为驱动测试 | 持续测试 |
 | -----| ----- | ----- |
 | []() | [BDD 测试框架（Cucumber 集成）](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/BDD_Overview.md) | [集成Jira](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Jira%20Integration.md) |
-| []() | []() | [集成Jenkins(on Windows)](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Jenkins%20Integration%20(on%20Windows).md) |
-| []() | []() | [集成Jenkins(docker on ubuntu)](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Jenkins%20Integration%20(on%20docker%20in%20ubuntu).md) |
-| []() | []() | [集成Katalon TestOps-概述](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/TestOps%20Overview.md) |
+| []() | [创建 BDD 场景](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/BDD_Overview.md) | [集成Jenkins(on Windows)](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Jenkins%20Integration%20(on%20Windows).md) |
+| []() | [定义测试步骤](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/BDD_Overview.md) | [集成Jenkins(docker on ubuntu)](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Jenkins%20Integration%20(on%20docker%20in%20ubuntu).md) |
+| []() | [运行 BDD 测试](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/BDD_Overview.md) | [集成Katalon TestOps-概述](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/TestOps%20Overview.md) |
 | []() | []() | [集成Katalon TestOps-了解Katalon TestOps](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Navigate%20through%20Katalon%20TestOps.md) |
