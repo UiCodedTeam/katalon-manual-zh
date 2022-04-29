@@ -7,17 +7,19 @@ Katalon Studio是一个针对Web、API、移动和桌面的一体化测试自动
 | 快速开始 | 产品评估中心 | 最新版本 |
 | -----| ----- | ----- |
 | [安装与许可]() | [技术支持]() | [8.2.0的新功能](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/What's_new_in_v8.2.0.md) |
-| []() | [Katalon Studio vs Katalon Studio Enterprise Features]() | [发布说明](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Release_Notes.md) |
-| []() | [Unique Capabilities]() | []() |
-| []() | [Choose the right license]() | []() |
+| []() | [Katalon Studio 与 Katalon Studio 企业版的功能对比](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Katalon%20Studio%20vs%20Katalon%20Studio%20Enterprise%20Features.md) | [发布说明](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Release_Notes.md) |
+| []() | []() | []() |
+| []() | []() | []() |
 
 
 
 | Web UI 测试 | 移动端测试 | 支持 |
 | -----| ----- | ----- |
-| []() | [Tutorial for Android]() | []() |
-| []() | [Tutorials for iOS]() | []() |
-| []() | [Troubleshooting]() | []() |
+| []() | [安卓教程](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Tutorial%20for%20Android.md) | []() |
+| []() | [iOS教程](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Tutorials%20for%20iOS.md) | []() |
+| []() | [故障排除](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Troubleshooting.md) | []() |
+
+
 
 | API/Web 服务 | 桌面应用测试 | 更多测试 |
 | -----| ----- | ----- |
