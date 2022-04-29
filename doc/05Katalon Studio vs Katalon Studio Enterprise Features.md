@@ -1,4 +1,4 @@
-# 对比Katalon Studio 与 Katalon Studio 企业版的功能
+# Katalon Studio 与 Katalon Studio 企业版的功能对比
 
 本文档反映了最新版本 Katalon Studio 中免费版和企业专有版功能之间的比较。
 
