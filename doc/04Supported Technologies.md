@@ -1,4 +1,4 @@
-# 支持的技术
+# 技术支持
 
 本文档为您提供有关支持的技术和集成的信息。有关支持的环境（包括浏览器和操作系统），请参阅[支持的环境](https://docs.katalon.com/katalon-studio/docs/supported-environments.html)。
 
