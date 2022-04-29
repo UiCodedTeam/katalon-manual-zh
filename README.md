@@ -6,10 +6,10 @@ Katalon Studio是一个针对Web、API、移动和桌面的一体化测试自动
 
 | 快速开始 | 产品评估中心 | 最新版本 |
 | -----| ----- | ----- |
-| [安装与许可]() | [技术支持]() | [8.2.0的新功能](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/What's_new_in_v8.2.0.md) |
+| [安装与许可]() | [技术支持](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Supported%20Technologies.md) | [8.2.0的新功能](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/What's_new_in_v8.2.0.md) |
 | []() | [Katalon Studio 与 Katalon Studio 企业版的功能对比](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Katalon%20Studio%20vs%20Katalon%20Studio%20Enterprise%20Features.md) | [发布说明](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Release_Notes.md) |
-| []() | []() | []() |
-| []() | []() | []() |
+| []() | [独有的能力](https://gitee.com/sukekes/katalon-manual-zh/blob/master/doc/Supported%20Technologies.md) | []() |
+| []() | [选择正确的许可证]() | []() |
 
 
 
