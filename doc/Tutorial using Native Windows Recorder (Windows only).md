@@ -1,4 +1,4 @@
-# 本机 Windows 记录器
+# 本机 Windows 记录器(仅适用于Windows)
 
 从 7.0.0 版本开始，Katalon 支持用于桌面应用程序测试的录制实用程序。从版本**7.5.0 开始**，本机 Windows 记录器可用于 Windows 机器。这款新一代 Windows Recorder 为您提供类似于 Web Recorder 的无缝录制体验。
 
@@ -62,10 +62,10 @@
 7. 完成录制后，单击“**确定**”将录制的动作保存在 Katalon Studio 中。
 
 8. 系统将提示您将捕获的对象保存在 Katalon Studio 的对象存储库中。选择现有文件夹或创建一个新文件夹，然后单击“**确定**”继续。
-  ![](../imgs/zs/img-027-07.png)
+    ![](../imgs/zs/img-027-07.png)
 
 9. 完成录制会话后，将录制的步骤导出到新的测试用例。
-  ![](../imgs/zs/img-027-08.png)
+    ![](../imgs/zs/img-027-08.png)
 
 10. 记录的对象和动作保存在测试用例中
     ![](../imgs/zs/img-027-09.png)
