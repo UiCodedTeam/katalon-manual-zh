@@ -4,7 +4,7 @@
 
 ## 在你开始之前
 
-Katalon Studio 简单易用，即使对于没有太多编程和脚本编写经验的用户也是如此。如果您是 Katalon Studio 的新手，但有一些基本的 Java 和/或 Groovy 技能，并且对测试有一个简短的了解，那么使用这个工具应该没有问题。
+Katalon Studio 简单易用，即使对于没有太多编程和脚本编写经验的用户也是如此。如果您是 Katalon Studio 的新手，但有一些基本的 Java 或 Groovy 技能，并且对测试有一个简短的了解，那么使用这个工具应该没有问题。
 
 - 首先，您需要验证您的计算机是否满足 Katalon Studio 的[系统要求](https://docs.katalon.com/katalon-studio/docs/system-requirements.html)。
 - 有关如何安装和设置 Katalon Studio，请在[此处查看](https://docs.katalon.com/katalon-studio/tutorials/install_setup_katalon_studio.html)。
@@ -13,7 +13,7 @@ Katalon Studio 简单易用，即使对于没有太多编程和脚本编写经�
 
 **第 1 步：设置项目**
 
-在 Katalon Studio 中，您可以从头开始或从我们提供的示例项目[示例项目](https://github.com/katalon-studio-samples)之一创建新项目。转到文件 > 新建 > 项目并选择您的偏好。然后，输入新项目的名称和存储项目数据的位置。
+在 Katalon Studio 中，您可以从头开始，或从我们提供的[示例项目](https://github.com/katalon-studio-samples)之中选择一个来创建新项目。转到文件 > 新建 > 项目并选择您的偏好。然后输入新项目的名称和存储项目数据的位置。
 
 此外，本教程中的所有 Katalon Studio 代码都包含在入门示例中，您可以将其用作参考。
 
@@ -57,13 +57,13 @@ Katalon Studio 的开始步骤似乎相对不言自明。但是，您可能想�
 
 “Click”和“setText”是 Katalon Studio 的[开源内置关键字](https://github.com/katalon-studio/katalon-studio-testing-framework)，它们包装和增强了有限的 Selenium 关键字集。您还可以定义自己的[自定义关键字](https://docs.katalon.com/katalon-studio/tutorials/create_custom_keyword.html)集或导入其他 Katalon Studio 用户制作的共享自定义关键字。
 
-“Page_CURA Healthcare Service/a_Make Appointment”是 Katalon Studio 中的一个[测试对象](https://docs.katalon.com/katalon-studio/docs/manage-test-object.html)，旨在遵循页面对象模型模式。它有助于集中应用程序元素，以便更轻松地编写脚本和维护。最重要的是，Katalon Studio 最近开发了“自动修复”——尽管 AUT 的性质不断变化，但该功能使测试对象具有可持续性。最终，上述脚本和对象可以通过[“录制”](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html)和[“间谍”](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html)功能快速生成。
+“Page_CURA Healthcare Service/a_Make Appointment”是 Katalon Studio 中的一个[测试对象](https://docs.katalon.com/katalon-studio/docs/manage-test-object.html)，旨在遵循页面对象模型模式。它有助于集中应用程序元素，以便更轻松地编写脚本和维护脚本。最重要的是，Katalon Studio 最近开发了“自动修复”——尽管 AUT 的性质不断变化，但该功能使测试对象具有可持续性。最终，上述脚本和对象可以通过[“录制”](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html)和[“间谍”](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html)功能快速生成。
 
 您还可以使用 Katalon Studio 来执行这两种手动测试。该工具独特地为手动和自动测试提供了双脚本界面：
 
 ![avatar](../imgs/ln/img-004-01.png)
 
-为了付诸实践，测试人员和开发人员团队如何将这些步骤应用于完整的工作流程：自动化专家准备所有脚本工作，例如自定义关键字、[测试侦听](https://docs.katalon.com/katalon-studio/docs/test-listeners-test-hooks.html)器、[调用测试用例](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view)等。然后，手动 QAs-不熟悉脚本的人——可以利用所有准备好的材料来构建测试用例。最终，手动 QA 可以逐渐学习如何编写脚本并成为自动化脚本编写者。
+为了付诸实践，测试人员和开发人员团队将这些步骤应用于完整的工作流程如下：自动化专家准备所有脚本工作，例如自定义关键字、[测试侦听](https://docs.katalon.com/katalon-studio/docs/test-listeners-test-hooks.html)器、[调用测试用例](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view)等。然后，手工QA工程师们-不熟悉脚本的人——可以利用所有准备好的材料来构建测试用例。最终，手工QA 可以逐渐学习如何编写脚本并成为自动化脚本编写者。
 
 **第 3 步：在测试用例中进行验证**
 
@@ -71,7 +71,7 @@ Katalon Studio 的开始步骤似乎相对不言自明。但是，您可能想�
 
 从第一个测试用例开始，我们就了解了 Katalon Studio 脚本的基本工作原理。现在让我们进一步使用“Make Appointment”标头验证创建一个更真实的测试用例。
 
-Katalon Studio 提供了一组丰富的验证关键字来轻松处理该要求。再一次，这种脚本可以在手动或脚本模式下完成。
+Katalon Studio 提供了一组丰富的验证关键字来轻松处理该要求。换句话说，这种脚本可以在手动或脚本模式下完成。
 
 ![avatar](../imgs/ln/img-004-02.png)
 
