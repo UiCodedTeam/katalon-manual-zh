@@ -20,17 +20,21 @@ Katalon Studio 可以在 macOS、Windows 和 Linux 上运行。
 > - Katalon Studio (KS) 提供适合个人测试需求的免费基本工具。对于高级业务解决方案，您可以购买 Katalon Studio Enterprise (KSE) 许可证。要比较 KS 和 KSE 之间的功能，您可以参考此文档：[Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html)。
 > - Katalon Runtime Engine (KRE) 是 Katalon Studio 的测试执行插件。KRE 允许您在命令行界面 (CLI) 中执行测试。
 
+> 注意：
+> - 建议使用最新版本的 Katalon Studio。 从 Katalon 网站下载最新版本[katalon 产品](https://www.katalon.com/download/)。
+> - 从 Katalon Studio 7.9.0 版开始，不再不支持 32 位处理器。
+
 ## 系统要求
 
-|                  |                                                              | Katalon Studio/Katalon Studio Enterprise                     | Katalon 运行时引擎 (KRE) |
-| :--------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------- |
-| 操作系统         | 视窗                                                         | Windows 7、Windows 8 和 Windows 10 Windows Server 2012       |                          |
-| 苹果系统         | macOS 10.11 或更高版本                                       |                                                              |                          |
-| Linux            | - 确保安装 OpenJDK 8.0。有关更多详细信息，您可以参考此文档：[安装 Katalon Studio for Linux](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux)。 - 支持 Gnome、KDE 或 Unity DE 的最新版本的 Linux 发行版。 - 在 Ubuntu 上测试。 | - 确保安装 OpenJDK 8.0。 有关更多详细信息，您可以参考此文档：[Install Katalon Runtime Engine for Linux](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux)。 - 基于 Debian、Ubuntu、RHEL、Fedora 和 CentOS 的发行版。 - 在 Ubuntu 上测试。 |                          |
-| 图形用户界面组件 | 所有操作系统都需要。                                         | KRE 没有 GUI 组件。有关使用 KRE 执行的更多信息，您可以参考此文档：[在 KRE 上执行](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder)。 |                          |
-| 中央处理器       | 最低要求：2 GHz 或更快的 32 位 (x86) 或 64 位 (x64) 处理器   |                                                              |                          |
-| 存储器           | 最低要求：2 GB RAM（32 位）或 4 GB RAM（64 位） 推荐：4 GB RAM（32 位）或 8 GB RAM（64 位）。 | 最低要求：2 GB RAM（32 位）或 4 GB RAM（64 位） 并发执行（以及使用 Docker 执行）的建议：并发会话数 x 2GB。 例如： 3 个并发执行会话的推荐 RAM 为 6GB (3 x 2GB)。 |                          |
-| 硬盘             | 至少 1 GB 可用硬盘空间。根据项目源代码和生成的执行报告，需要额外的磁盘空间。 |                                                              |                          |
+|                  |                                                              | Katalon Studio/Katalon Studio Enterprise                     | Katalon 运行时引擎 (KRE)                                     |
+| :--------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 操作系统         | 视窗                                                         | Windows 7、Windows 8 和 Windows 10 Windows Server 2012       |                                                              |
+| 操作系统         | 苹果系统                                                     | macOS 10.11 或更高版本                                       |                                                              |
+| 操作系统         | Linux                                                        | - 确保安装 OpenJDK 8.0。有关更多详细信息，您可以参考此文档：[安装 Katalon Studio for Linux](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux)。 - 支持 Gnome、KDE 或 Unity DE 的最新版本的 Linux 发行版。 - 在 Ubuntu 上测试。 | - 确保安装 OpenJDK 8.0。 有关更多详细信息，您可以参考此文档：[Install Katalon Runtime Engine for Linux](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux)。 - 基于 Debian、Ubuntu、RHEL、Fedora 和 CentOS 的发行版。 - 在 Ubuntu 上测试。 |
+| 图形用户界面组件 | 所有操作系统都需要。                                         | KRE 没有 GUI 组件。有关使用 KRE 执行的更多信息，您可以参考此文档：[在 KRE 上的执行](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder)。 |                                                              |
+| 中央处理器       | 最低要求：2 GHz 或更快的 32 位 (x86) 处理器，或 64 位 (x64) 处理器 |                                                              |                                                              |
+| 存储器           | 最低要求：2 GB RAM（32 位）或 4 GB RAM（64 位） 。推荐：4 GB RAM（32 位）或 8 GB RAM（64 位）。 | 最低要求：2 GB RAM（32 位）或 4 GB RAM（64 位）。 并发执行（以及使用 Docker 执行）的建议：并发会话数 x 2GB。 例如： 3 个并发执行会话的推荐 RAM 为 6GB (3 x 2GB)。 |                                                              |
+| 硬盘             | 至少 1 GB 可用硬盘空间。根据项目源代码和生成的执行报告，需要额外的磁盘空间。 |                                                              |                                                              |
 
 ## 浏览器
 
@@ -60,7 +64,7 @@ Katalon Studio 可以在 macOS、Windows 和 Linux 上运行。
 - [捕获混合 Android 应用程序中的元素](https://docs.katalon.com/katalon-studio/docs/capture-elements-in-hybrid-android-apps.html)。
 - [使用自定义 SetText 关键字进行基于 Flutter 的应用程序测试](https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html)。
 
-## 视窗
+## Windows系统
 
 Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自动化测试：
 
@@ -73,10 +77,10 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 本文提供有关如何在 macOS/Windows 上安装 Katalon Studio 的信息。
 
-> 要求：
+> 所需如下：
 >
 > - 用于注册 Katalon 帐户的有效电子邮件
-> - 用于下载 Katalon Studio 的有效 Internet 连接
+> - 用于下载 Katalon Studio 的有效网络环境
 
 ## 支持的环境
 
@@ -106,9 +110,8 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 ![avatar](../imgs/ln/img-001-03.png)
 
-**笔记**
-
-对于 Windows 用户，如果您将 Katalon Studio 解压到`C:\Users\<username>`文件夹之外，请确保当前用户具有 Katalon Studio 软件包的读/写权限或以管理员权限运行该软件。
+> **笔记**
+> 对于 Windows 用户，如果您将 Katalon Studio 解压到`C:\Users\<username>`文件夹之外，请确保当前用户具有 Katalon Studio 软件包的读/写权限或以管理员权限，以运行该软件。
 
 2. 要启动 Katalon Studio，请双击**katalon.exe**文件。
 
@@ -149,11 +152,18 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 2. 完成后，单击**激活**。现在 Katalon Studio 可以使用了。
 
+# 管理测试项目
+
+> 在哪里创建测试？
+>
+> 选择您拥有所有读写权限的测试位置。 不要将您的项目存储在 Katalon 构建文件夹中。
+
 ## 创建一个测试项目
+
 
 1.  从主菜单中选择 **文件 > 新建 > 项目**。在显示的**新建项目** 对话框中，选择所需的项目**类型**。
 
-   - **Generic、Web、Mobile、Desktop**：Web、Mobile、API 和桌面测试的所有标准功能均可用。
+   - **通用端、网页端、移动端、桌面端**：Web、Mobile、API 和桌面测试的所有标准功能均可用。
 
    - **API / Web服务**：用于API独有的功能/ Web服务测试被使能，包括从输入测试请求的图标[的OpenAPI规范3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html)，[WADLs](https://docs.katalon.com/katalon-studio/docs/import-wadl.html)，[WSDL中](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html)，[OpenAPI的规范2.0（[Swagger](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html))，和[Postman](https://docs.katalon.com/katalon-studio/docs/import-soapui.html); [请求历史列表](https://docs.katalon.com/katalon-studio/docs/request-history.html)等。
 
@@ -185,7 +195,7 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
       | 操作系统 | 临时文件的位置                      |
       | :------- | :---------------------------------- |
-      | 视窗     | C:\用户\\AppData\Local\Temp\Katalon |
+      | Windows  | C:\用户\\AppData\Local\Temp\Katalon |
       | 苹果电脑 | /tmp/Katalon                        |
 
        在**File** 菜单下选择 **Clean...**， 如下图所示：
@@ -198,7 +208,7 @@ Katalon Studio 完全支持在以下平台上编写的桌面应用程序的自�
 
 
 
-# [Licensing]
+# [许可证概述]
 
 # 许可证类型
 
